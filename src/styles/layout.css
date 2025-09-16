@@ -75,7 +75,6 @@ section h1 {
 .news_grid img {
   max-width: 250px;
   margin-left: auto;
-  margin-right: auto;
   padding: 15px;
 }
 
@@ -102,13 +101,15 @@ section h1 {
 }
 
 @media (min-width: 750px) {
-  /********************** MENU - DESKTOP *************************/
-
   /********************** FOOTER - DESKTOP *************************/
 
   .contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .contact_name {
+    margin-left: 70px;
   }
 
   .mail_1-1 {
