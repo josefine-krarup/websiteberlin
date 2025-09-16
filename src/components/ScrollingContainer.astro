@@ -1,0 +1,46 @@
+---
+import ScrollCard from "./ScrollCard.astro";
+import MyImage from "../imgs/artikel1.svg"
+import NewImage from "../imgs/artikel2.svg"
+import NewImage1 from "../imgs/artikel3.svg"
+import NewImage2 from "../imgs/artikel4.svg"
+import NewImage3 from "../imgs/artikel5.svg"
+
+---
+
+<section>
+    <ul>
+        <ScrollCard title="Heading 1" content="Astro is just the best." img={MyImage} />
+        <ScrollCard title="Heading 2" content="Astro is just the best." img={NewImage} />
+        <ScrollCard title="Heading 2" content="Astro is just the best." img={NewImage1} />
+        <ScrollCard title="Heading 2" content="Astro is just the best." img={NewImage2} />
+        <ScrollCard title="Heading 2" content="Astro is just the best." img={NewImage3} />
+        <ScrollCard title="Heading 2" content="Astro is just the best." img={NewImage} />
+        <!-- <ScrollCard title="Astro is awesome!" /> -->
+        <!-- <ScrollCard /> -->
+        <!-- <ScrollCard /> -->
+        <!-- <ScrollCard /> -->
+        <!-- <ScrollCard /> -->
+    </ul>
+</section>
+
+<style>
+
+    section {
+    width: min(1200px, 100%);
+    margin: 0 auto;
+  }
+
+  ul {
+    display: flex;
+    overflow-x: scroll;
+    /* display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; */
+  }
+
+</style>

@@ -1,0 +1,111 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/************** Style **************/
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+body {
+  background-color: rgba(237, 237, 237, 1);
+}
+
+footer {
+  background-color: rgba(97, 53, 200, 1);
+  margin-top: 80px;
+  color: white;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  padding: 10px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.2rem;
+  padding: 10px;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  padding: 10px;
+  max-width: 30ch;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  padding: 10px;
+  max-width: 30ch;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  padding: 10px;
+  max-width: 30ch;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  padding: 15px;
+  max-width: 65ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+li {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+a h1 {
+  text-align: end;
+}
+
+.purple {
+  color: rgba(97, 53, 200, 1);
+}
+
+.turkis {
+  color: rgba(53, 205, 204, 1);
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}

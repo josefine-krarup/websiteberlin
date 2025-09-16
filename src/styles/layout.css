@@ -1,0 +1,210 @@
+/********************** MENU - MOBIL *************************/
+
+.logo img {
+  height: 80px;
+  width: auto;
+  padding: 10px;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.menu_text {
+  text-align: end;
+  padding: 20px;
+}
+
+/********************** FOOTER - MOBIL *************************/
+
+input {
+  padding: 5px;
+  margin-left: 10px;
+  border: 1px solid white;
+  width: 200px;
+  margin-top: 25px;
+}
+
+/********************** FORSIDE - MOBIL *************************/
+
+.overskrift {
+  max-width: 90ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.section_background {
+  background-color: rgba(97, 53, 200, 1);
+  color: white;
+  padding-bottom: 20px;
+}
+
+.quotes_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.quotes_1-1-1 img {
+  padding: 20px;
+}
+
+.crtv_color {
+  color: rgba(53, 205, 204, 1);
+  text-decoration: underline;
+}
+
+section p {
+  padding-left: 20px;
+  margin-left: 0;
+}
+
+section h1 {
+  margin-left: 15px;
+}
+
+.news_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* transform: scale(0.5); */
+  /* transform-origin: top;
+  text-align: left; */
+}
+
+.news_grid img {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+.news_header {
+  grid-column: span 2;
+}
+
+/********************** ABOUT US - MOBIL *************************/
+
+.grid_1-1 video {
+  max-width: 350px;
+  margin-bottom: 30px;
+}
+
+.video_div {
+  display: flex;
+  justify-content: center;
+}
+
+/********************** ARTIKEL - MOBIL *************************/
+
+.monster_img img {
+  padding: 15px;
+}
+
+@media (min-width: 750px) {
+  /********************** MENU - DESKTOP *************************/
+
+  /********************** FOOTER - DESKTOP *************************/
+
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .mail_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 70px;
+  }
+
+  /********************** FORSIDE - DESKTOP *************************/
+
+  .artikel_box {
+    border: solid 2px black;
+    height: 70vh;
+    color: black;
+  }
+
+  .artikel_box h1 {
+    text-align: left;
+  }
+
+  .artikel_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    height: 90vh;
+  }
+
+  .news_grid {
+    transform: scale(0.5);
+    transform-origin: top;
+    text-align: left;
+    order: 1;
+  }
+
+  .carrousel {
+    width: min(900px, 100%);
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .carrousel .track {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .carrousel img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    scroll-snap-align: start;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  .carrousel p,
+  .carrousel h4 {
+    text-align: left;
+    max-width: 30ch;
+    margin: initial;
+    padding: initial;
+  }
+
+  /********************** ABOUT US - DESKTOP *************************/
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .grid_1-1 video {
+    max-width: 380px;
+  }
+
+  .video_div {
+    display: flex;
+    justify-content: center;
+    order: 1;
+  }
+
+  /********************** ARTIKEL - DESKTOP *************************/
+
+  .kabinett_img {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .monster_img img {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
