@@ -109,3 +109,15 @@ a h1 {
   margin-left: auto;
   margin-right: auto;
 }
+
+.news_button {
+  grid-column: span 2;
+  margin-right: 0;
+  margin-top: 20px;
+}
+
+.artikel_button {
+  max-width: 120px;
+  margin-left: auto;
+  margin-top: 20px;
+}
