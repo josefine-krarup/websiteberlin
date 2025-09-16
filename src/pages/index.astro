@@ -1,17 +1,104 @@
 ---
+import ScrollingContainer from "../components/ScrollingContainer.astro"
+import MainLayout from "../layouts/MainLayout.astro"
 
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-		<p>hej</p>
-	</body>
-</html>
+<MainLayout>
+
+	<img class="forside_img" src="/public/imgs/forsideimg.svg" alt="Forside billede">
+	<main>
+		<div class="overskrift center">
+			<h1>WHAT CAN'T I MISS IN BERLIN AS A <span class="purple">CREATIVE</span> FIRST-TIMER?</h1>
+		</div>
+		<section class="section_background">
+
+			<p>FEATURED QUOTES</p>
+			<h1>INSPIRING QUOTES FOR <span class="turkis">YOUNG CREATORS</span></h1>
+		
+			<div class="quotes_1-1-1">
+				<div>
+					<img src="/public/imgs/quote1.svg" alt="">
+					<p class="crtv_color">LOCAL CRTV</p>
+					<p> “Creativity begins where routine ends”</p>
+				</div>
+				<div>
+					<img src="/public/imgs/quote2.svg" alt="">
+					<p class="crtv_color">LOCAL CRTV</p>
+					<p>“Escape the ordinary. Create the extraordinary”</p>
+				</div>
+				<div>
+					<img src="/public/imgs/quote3.svg" alt="">
+					<p class="crtv_color">LOCAL CRTV</p>
+					<p>"Get lost — that’s where inspiration hides."</p>
+				</div>
+			</div>
+		</section>
+</div>
+<div class="artikel_grid">
+<div class="news_grid">
+		<div class="news_header">
+		<h5>NEWS</h5>
+		<h1>LATEST NEWS</h1>
+	</div>
+	<div>
+		<img src="/imgs/news1.svg" alt="Artikel billede">
+	</div>
+	<div>
+		<h4>Must see! Week 38</h4>
+		<h5>Klunkerkranich, Neukölln</h5>
+		<p>
+			A rooftop bar with sunset views, music, and drinks — one of the city’s coolest yet still relaxed spots (especially if you go early)
+		</p>
+	</div>
+	<div>
+		<img src="/imgs/news2.svg" alt="Artikel billede">
+	</div>
+	<div>
+		<h4>Must see! Week 38</h4>
+		<h5>Boxhagener Platz Flea Market</h5>
+		<p>
+			Vintage finds, local art, food stalls, and a lively atmosphere
+		</p>
+	</div>
+	<div>
+		<img src="/imgs/news3.svg" alt="Artikel billede">
+	</div>
+	<div>
+		<h4>Must see! Week 39</h4>
+		<h5>Edelweiss 36</h5>
+		<p>
+			A cozy venue for live jazz and laid-back evenings — slightly hidden but well worth the visit
+		</p>
+	</div>
+	<div>
+		<img src="/imgs/news4.svg" alt="Artikel billede">
+	</div>
+	<div>
+		<h4>Must see! Week 40</h4>
+		<h5>Britzer Garten</h5>
+		<p>
+			A vast and beautiful park with rose gardens, lakes, and hills — the perfect escape from the city rush
+		</p>
+	</div>
+</div>
+<a href="/artikel">
+<div class="artikel_box">
+	<img src="/public/imgs/monsterkabinett.svg" alt="Artikel billede">
+	<h4>UNMISSABLE FREE GEMS</h4>
+	<h1>STREET ART WALK IN BERLIN</h1>
+	<h2 class="purple">MONSTER KABINETT</h2>
+</div>
+</a>
+</div>
+
+<h1>POPULAR GEMS IN BERLIN</h1>
+<ScrollingContainer />
+
+
+
+
+		</main>
+</MainLayout>
+		
+	

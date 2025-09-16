@@ -1,0 +1,39 @@
+---
+
+import Image from "astro/components/Image.astro"
+
+const { title, content, img } = Astro.props
+
+---
+
+<li>
+        <Image src={img} alt="">
+        <div>
+	        <h3>{title}</h3>
+	        <p>{content}</p>
+        </div>
+</li>
+
+<style>
+    li {
+        flex: 0 0 300px;
+        list-style-type: none;
+    }
+
+    /* img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    scroll-snap-align: start;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  p,
+  h4 {
+    text-align: left;
+    max-width: 30ch;
+    margin: initial;
+    padding: initial;
+  } */
+</style>
